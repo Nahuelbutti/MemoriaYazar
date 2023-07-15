@@ -1,0 +1,48 @@
+<resources>
+    <string name="titulo_menu">Memory\n and\n Chance</string>
+    <string name="texto_jugar">Play</string>
+    <string name="texto_ayuda">Help</string>
+    <string name="texto_movimientos">Moves: 0</string>
+    <string name="texto_movimiento_archivo">Moves: </string>
+    <string name="texto_menu">Menu</string>
+    <string name="text_Puntaje">score: </string>
+    <string name="text_Salir">Exit</string>
+    <string name="text_Records">Records</string>
+    <string name="text_perdedor">You lost, you exceeded the maximum number of moves allowed.</string>
+    <string name="NuevoRecord">You achieved a new record, keep it up!</string>
+
+
+    <string name="texto_salir">Exit</string>
+    <string name="texto_salirDialogo">Are you sure you want to go out?</string>
+    <string name="texto_cancel">Cancel</string>
+
+    <string name="texto_compartir">share</string>
+    <string name="texto_TituloCompartir">Win the game Memory and Chance!</string>
+    <string name="texto_spam">try it too!</string>
+
+    <string name="texto_saludo">Enter name</string>
+    <string name="texto_Aceptar">Accept</string>
+    <string name="texto_Bienvenido">Welcome</string>
+
+    <string name="texto_ranking">Ranking</string>
+    <string name="texto_felicidades">Congratulations!</string>
+    <string name="texto_ganaste_con1">You completed the game with: </string>
+    <string name="texto_ganaste_con2">movements, </string>
+    <string name="texto_ganaste_con3">and a hit rate of </string>
+
+    <string name="texto_reiniciar">Restart</string>
+    <string name="info_ayuda">Welcome to Memory and Chance! Here´s a detailed explanation of how to play: \n\n
+1) The objective of the game is to find all pairs of cards with the same value.\n
+2) To start, select the `Play´ option in the main menu.\n
+3) You will see a set of face-down cards on the screen.\n
+4) Your goal is to flip them over and remember their positions.\n
+5) Tap a card to reveal it.\n
+6) Remember the value of the card to find its match.\n
+7) Tap another card to reveal it.\n
+8) If the value matches the previously flipped card, you have found a pair.\n
+9) If the values don´t match, the cards will flip back over, and you must remember their positions for future attempts.\n
+10) Continue flipping cards and searching for pairs until you have found them all.\n\n
+Once you have found all the pairs, you have completed the game and will receive a score based on your performance.\n
+To change the username just touch the name on the main menu screen.</string>
+    <string name="texto_volver">Back</string>
+</resources>

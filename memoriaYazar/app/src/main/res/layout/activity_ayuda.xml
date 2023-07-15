@@ -1,0 +1,51 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondodesenfocado">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:typeface="serif"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:textColor="@color/white"
+            android:text="@string/texto_ayuda"
+            android:textSize="40sp" />
+
+        <TextView
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:id="@+id/TxtAyuda"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:text="@string/info_ayuda"
+            android:textSize="20sp" />
+
+        <Button
+            android:background="@drawable/shape"
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/botonAtras"
+            android:layout_width="180dp"
+            android:layout_height="40dp"
+            android:gravity="center"
+            android:text="@string/texto_volver"
+            android:textSize="15sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</ScrollView>

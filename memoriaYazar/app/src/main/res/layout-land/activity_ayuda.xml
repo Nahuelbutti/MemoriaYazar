@@ -1,0 +1,60 @@
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondodesenfocado">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:typeface="serif"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:text="Ayuda"
+            android:textSize="40sp" />
+
+        <TextView
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:background="@drawable/shape"
+            android:id="@+id/TxtAyuda"
+            android:gravity="left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:padding="16dp"
+            android:textColor="@color/white"
+            android:text="¡Bienvenido a Memoria y Azar! Aquí tienes una explicación detallada de cómo jugar: \n\n
+    1) El objetivo del juego es encontrar todos los pares de cartas que tengan el mismo valor.\n
+    2) Para comenzar, selecciona la opción 'Jugar' en el menú principal.\n
+    3) Verás un conjunto de cartas boca abajo en la pantalla.\n
+    4) Tu objetivo es voltearlas y recordar su ubicación.\n
+    5) Toca una carta para revelarla.\n
+    6) Recuerda el valor de la carta para encontrar su pareja.\n
+    7) Toca otra carta para revelarla.\n
+    8) Si el valor coincide con la carta anteriormente volteada, has encontrado un par.\n
+    9) Si los valores no coinciden, las cartas se voltearán de nuevo y deberás recordar su ubicación para futuros intentos.\n
+    10) Continúa volteando cartas y buscando pares hasta que hayas encontrado todos.\n\n
+    Una vez que hayas encontrado todos los pares, habrás completado el juego y obtendrás una puntuación basada en tu rendimiento."
+            android:textSize="20sp"/>
+
+        <Button
+            android:typeface="serif"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:id="@+id/botonAtras"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Volver"
+            android:textSize="20sp"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+</ScrollView>

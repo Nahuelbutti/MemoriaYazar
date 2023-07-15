@@ -1,0 +1,111 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/pxfuel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/MenuTexto"
+        android:layout_marginTop="50dp"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/iconojuego"
+        android:gravity="center"
+        android:typeface="serif"
+        android:textColor="#090303"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:letterSpacing="0.1"
+        android:lineSpacingExtra="8dp"
+        android:padding="16dp"
+        android:drawablePadding="8dp"
+        android:backgroundTint="#D2FEF4D1"/>
+
+    <ImageButton
+        android:id="@+id/botonPausaMusica"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/shape"
+        android:src="@android:drawable/ic_lock_silent_mode_off"
+        android:state_selected="true" />
+
+    <Button
+        android:maxLength="8"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:padding="0dp"
+        android:gravity="center"
+        android:id="@+id/nombreUser"
+        android:background="@drawable/fondo_de_titulo"
+        android:text="User"
+        android:textSize="15dp"/>
+
+    <Button
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/botonJugar"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/MenuTexto"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/shape"
+        android:textSize="40sp"
+        android:text="@string/texto_jugar"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/botonRankin"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/botonJugar"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:text="@string/text_Records"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/botonAyuda"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/botonRankin"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:text="@string/texto_ayuda"/>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:background="@drawable/shape"
+        android:typeface="serif"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:id="@+id/botonSalir"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_below="@id/botonAyuda"
+        android:layout_centerHorizontal="true"
+        android:textSize="15sp"
+        android:text="@string/texto_salir"/>
+
+
+</RelativeLayout>
